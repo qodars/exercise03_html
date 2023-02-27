@@ -7,7 +7,9 @@
     <link rel="stylesheet" type="text/css" href="index.css" />
     <title>Document</title>
     <style>
-           
+              body,h1,h2,h3,h4,h5,h6 {
+        font-family: "Raleway", sans-serif
+    }
     </style>
 </head>
 
@@ -45,18 +47,36 @@
 <header id="portfolio">
    
     <div class="w3-container">
-        <h1><b>Contact</b></h1>
-        <div class="w3-section w3-bottombar w3-padding-16">
-            <span class="w3-margin-right">Filter:</span>
-            <button class="w3-button w3-black">ALL</button>
-            <button class="w3-button w3-white"><i class="fa fa-diamond w3-margin-right"></i>Design</button>
-            <button class="w3-button w3-white w3-hide-small"><i class="fa fa-photo w3-margin-right"></i>Photos</button>
-            <button class="w3-button w3-white w3-hide-small"><i class="fa fa-map-pin w3-margin-right"></i>Art</button>
-        </div>
-    </div>
+        <h1 align="center"><b>Contact</b></h1>
 </header> 
+<hr>
+
+<div class=" w3-container w3-margin-bottom">
+    <div class="w3-container">
+
+        <form class="myForm">
+            <label for="">Rinaldy Qodar Saputra </label>
+           
+            <label for="">rinaldysaputra77@gmail.com</label>
+            
+            <label for="">08226020xxxx</label>
+          </form>       
+          <form class="myForm">
+            <label for="customer_name">Name </label>
+            <input type="text" name="customer_name" id="customer_name" required>
+            <label for="email_address">Email </label>
+            <input type="email" name="email_address" id="email_address">
+            <label for="phone">Phone </label>
+            <input type="tel" name="phone" id="phone">
+            <div id="comment-box">
+                <label for="comments">Comments</label>
+                <textarea name="comments" id="comments" maxlength="500"></textarea>
+            </div>
+            <button>Send</button>
+          </form>  
+    </div>
 </div>
 
-
+</div>
 </body>
 </html>
