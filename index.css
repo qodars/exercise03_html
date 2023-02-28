@@ -169,60 +169,6 @@ hr {
         font: inherit;
         margin: 0;
       }
-      .kotak li{
-        list-style-type: square;
-        padding: 5px;
-      }
-      .arrowed {
-        position: relative;
-        height: 200px; width: 200px;
-        margin: 0 20px 20px 0;
-        border: 1px solid rgba(0,0,0,0.25);
-    }
-    .arrow-4 {
-        /* duplicate the triange */
-        position: relative;
-        height: 0px; width: 0px;
-        border: 8px solid;
-        border-color: 
-            black
-            black
-            transparent
-            transparent;
-        transform: rotate(45deg); 
-    }
-    .arrow-4:before, .arrow-4:after {
-        content: '';
-        display: block;
-        position: absolute;
-        
-        /* set up more triangles */
-        height: 0; width: 0;
-        
-        /* half the parent border
-           rounded up */
-        border: 5px solid;	
-    }
-    
-    .arrow-4:before {
-        border-color:
-            black
-            transparent
-            transparent
-            black;
-        display: block;
-        top: -1px; right: 0px;
-        transform-origin: top right;
-        transform: rotate(45deg); 
-    }
-    
-    .arrow-4:after {
-        border-color:
-            transparent
-            black
-            black
-            transparent;
-        top: 0px; right: -1px;
-        transform-origin: top right;
-        transform: rotate(-45deg);
+      span {
+        content: "\27A2";
     }
